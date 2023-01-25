@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="calculator">
+        <div id="displayn">
+            <h1 id="display">0</h1>
+        </div>
+        <div id="line1">
+            <button class="topline" onclick="clearClick()">AC</button>
+            <button class="topline" onclick="negativeClick()">+/-</button>
+            <button class="topline" onclick="percent()">%</button>
+            <button class="vline" onclick="division()">÷</button>
+        </div>
+        <div id="line2">
+            <button onclick="seven()">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button class="vline" onclick="multiplication()">x</button>
+        </div>
+        <div id="line3">
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button class="vline" onclick="subtraction()">-</button>
+        </div>
+        <div id="line4">
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button class="vline" onclick="sum()">+</button>
+        </div>
+        <div id="line5">
+            <button id="zero" onclick="zero()">0</button>
+            <button onclick="comma()">,</button>
+            <button class="vline" onclick="equals()">=</button>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

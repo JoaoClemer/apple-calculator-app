@@ -1,0 +1,60 @@
+@font-face {
+    font-family: SF-Pro;
+    src: url(SFCompactDisplay-Thin.otf);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: SF-Pro;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+h1 {
+    font-weight: 50;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+div#displayn {
+    width: 290px;
+    display: block;
+    margin: auto;
+}
+
+div {
+    padding-bottom: 5px;
+    padding-right: 7px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+button.vline:focus {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.topline {
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
+
+.vline {
+    background-color: rgb(255, 136, 0);
+}
+
+#zero {
+    width: 145px;
+    border-radius: 40px;
+}
